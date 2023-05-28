@@ -1,0 +1,232 @@
+*{
+  font-family: arial;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/rMJpK_2s.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-left: 350px ;
+  position: absolute;
+}
+
+.header .menu{
+  width: 60%;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid white;
+  
+}
+.menu .logo img{
+  width: 300px;
+  margin-bottom: 0;
+}
+.header .menu .Hotline{
+  width: 400px;
+  height: 50px;
+  background-color: #49A333;
+  background-size: 10px auto;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.header .menu .Hotline strong{
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+}
+.tt{
+  width: 400px;
+  height: 400px;
+  padding-left: 350px;
+  padding-top: 300px;
+  position: relative;
+  color: white;
+}
+.tt .nen{
+  background-color: #678B37;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 4px solid #CED086;
+}
+.tt .nen .mb{
+  width: 100%;
+  text-align: center;
+}
+.tt .nen .form{
+  text-align: center;
+  padding: 10px 0 10px 0;
+  
+}
+.tt .nen .form label{
+  display: block;
+  text-align: center;
+  color: white;
+ 
+}
+.tt p{
+  font-size: 30px;
+}
+.tt .nen  .dk{
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20px ;
+}
+.tt button{
+  background-color: #C5D301;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+}
+.tt .nen .form input{
+  background-color: #678B37;
+  align-items: center;
+  color: while;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  
+}
+.tt .nen .form input::placeholder{
+  color: white;
+  border: none;
+}
+.tt .nen .form input:focus{
+  outline: none;
+}
+.so1 {
+  display: flex; 
+  justify-content: center;
+  margin: 50px 0; 
+  padding-top: 375px;
+}
+
+.anh1 {
+  width: 500px;
+  margin-right: 20px; 
+  border-style: dashed;
+  border-color: #2D8C15;
+}
+.noidung1{
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+}
+ b{
+  color: #2D8C15;
+}
+.so2 {
+  display: flex; 
+  justify-content: center;
+  margin: 50px 0; 
+  padding-top: 50px;
+}
+
+.anh2 {
+  width: 500px;
+  margin-right: 20px; 
+  border-style: dashed;
+  border-color: #2D8C15;
+}
+.noidung2{
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+}
+.so3 {
+  display: flex; 
+  justify-content: center;
+  padding-top: 50px;
+  background-color:#678B37;
+}
+
+.anh3 {
+  width: 290px;
+  height: 215px;
+  margin-right: 20px; 
+}
+.noidung3{
+  width: 700px;
+  height: 300px;
+  font-size: 20px;
+  color: white;
+}
+.noidung3 b{
+  color: white;
+   border-bottom: 1px solid white;
+   font-size: 26px;
+}
+.nen2{
+  background-color: #DCE085;
+  height: 250px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.nen2 .mb2{
+  padding-top: 20px;
+}
+.nen2 .mb2 b{
+  color:#2D8C15;
+  font-size: 30px;
+}
+.nen2 .form2{
+  text-align: center;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  justify-content: center;
+  
+}
+ .nen2 .form2 label{
+  display: block;
+  text-align: center; 
+  padding-top: 20px;
+  align-items: center;
+}
+.nen2 .form2 .laber input{
+  margin-bottom: 10px;
+}
+.nen2 .form2 .f1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 20px;
+  border: gray;
+}
+.nen2 .form2 .f1 .f12{
+  padding-right: 10px;
+}
+.nen2 .form2 .f2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 10px;
+  border: gray;
+}
+.nen2 .form2 .f2 .f22{
+  padding-bottom: 20px;
+  margin-left: 5px;
+}
+.nen2 .form2 .f2  .f23{
+  margin-left: 15px;
+  text-align: center;
+  align-items: center;
+}
+.nen2 .form2 button{
+  padding-right: 90px;
+  color: white;
+  background-color: #2A6E01;
+  text-align: center;
+  align-items: center;
+}
